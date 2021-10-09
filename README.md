@@ -3,6 +3,7 @@
 ## Overview
 1. Write a small function that verifies that a collection is in sorted order. template<typename Comparable, typename Comparator>, bool VerifyOrder(const vector<Comparable> &input, Comparator less_than).
 The above function should return true if and only if the input is in sorted order according to the Comparator.
+  
 2. Write two functions, one that generates a random vector, and another that
 generates a sorted vector. vector<int> GenerateRandomVector(size_t size_of_vector), vector<int> GenerateSortedVector(size_t size_of_vector, bool
 smaller_to_larger). The sorted vector should generate a vector of increasing or
